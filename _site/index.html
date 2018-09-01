@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Audio Samples</title>
+  <style>
+body {
+  margin:0;
+  padding:10px 30px;
+  background: #fff;
+  color: #111;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+audio {
+  width: 250px;
+  margin-right: 10px;
+}
+.sample {
+  font-size: 0.9em;
+  font-style: italic;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+</style>
+</head>
+<body>
+    <h2><b>Welcome to Mispronuniciation Detection and Diagnosis (MDD) demo!</b></h2>
+  <ul>
+    <li>Here you will listen to some audios of non-native phonetic patterns of some phonemes </li>
+    <li>Each row displays the pronounciaiton patterns of a give phoneme, and each column displays a pronunciation pattern</li>
+  </ul>
+
+    <h3>Non-native phonetic patterns of some phonemes</h3>
+
+	<h4>3 non-native patterns:</h4>
+    <table border="1">
+    <tr>
+      <td align="center" >Native phonemes</td>
+      <td align="center" >Canonical pattern</td>
+      <td align="center" >Non-native pattern1</td>
+      <td align="center" >Non-native pattern2</td>
+      <td align="center" >Non-native pattern3</td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ax</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern1/2_MC037_mp50.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern2/FCLWI_nw1_213_ax_ee.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern3/FCLPY_nw4_51_ae_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern4/FCCMF_nw6_162_ao_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>eh</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern1/0_FC001_mp24.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern2/FCFYY_nw4_250_ah_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern3/FCCMF_nw2_719_ae_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern4/FCLPY_nw2_239_ee_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>r</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="r/pattern1/0_MCLYK_nw3_897.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="r/pattern2/FCLYY_nw3_222_l_r.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="r/pattern3/MCLYK_nw1_576_r_.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="r/pattern4/FCCLW_nw3_r_w_1028.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+	</table>
+      <!-- MF -->
+    <h4>2 non-native patterns:</h4>
+    <table border="1">
+    <tr>
+      <td align="center" >Native phonemes</td>
+      <td align="center" >Canonical pattern</td>
+      <td align="center" >Non-native pattern1</td>
+      <td align="center" >Non-native pattern2</td>
+<!--       <td align="center" >Non-native pattern3</td> -->
+    </tr>
+    <!-- MF 1 sample 4 pieces of audios  -->
+    <tr>
+      <td align="center" ><b>aa</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern1/0_FC001_mp44_90.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern2/FCCMF_nw3_761_aa_ah.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern3/FCCLW_nw2_495_aa_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ae</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ae/pattern1/0_FC001_cw9_426.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ae/pattern2/FCCMF_nw1_169_ae_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ae/pattern3/FCLPY_nw4_51_ae_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ah</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ah/pattern1/0_FC009_mp46_488.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ah/pattern2/FCCMF_nw3_761_aa_ah.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ah/pattern3/FCLPL_nw1_337_ah_ao.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ao</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ao/pattern1/0_FC004_mp7_230.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ao/pattern2/FCLPL_nw1_337_ah_ao.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ao/pattern3/FCHUI_nw6_194_ao_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+<!--     <tr>
+      <td align="center" ><b>ax</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern1/0_FC001_cw9_426.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern2/FCCMF_nw1_169_ae_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ax/pattern3/FCLPY_nw4_51_ae_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr> -->
+    <tr>
+      <td align="center" ><b>d</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="d/pattern1/0_FC003_cw6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="d/pattern2/4_FC002_mp39.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="d/pattern3/FCCLW_nw2_495_d_dh.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+<!--     <tr>
+      <td align="center" ><b>eh</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern1/0_FC001_mp24.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern2/FCCMF_nw1_169_ae_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="eh/pattern3/FCLPY_nw4_51_ae_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr> -->
+    <tr>
+      <td align="center" ><b>er</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="er/pattern1/0_FC003_mp16.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="er/pattern2/3_FC014_mp29.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="er/pattern3/4_FC019_mp48.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ey</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ey/pattern1/1_FC002_mp50.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ey/pattern2/FCCMF_nw2_420_ih_ey.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ey/pattern3/FCFYY_nw2_340_ay_ey.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ih</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ih/pattern1/2_FC005_mp50.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ih/pattern2/FCCMF_nw2_420_ih_ey.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ih/pattern3/FCCMF_nw1_351_ih_iy.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ix</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ix/pattern1/0_FC007_cw9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ix/pattern2/FCCLW_nw3_ix_iy.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ix/pattern3/FCLPL_nw6_363_ax_ix.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>k</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="k/pattern1/0_FC001_mp3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="k/pattern2/2_FC001_mp9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="k/pattern3/1_FC010_mp31.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>f</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="f/pattern1/0_FC005_mp15.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="f/pattern2/FCLPY_nw1_38_f_th.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="f/pattern3/MCLYK_nw2_198_hh_f.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+	</table>
+    <h4>1 non-native patterns:</h4>
+    <table border="1">
+    <tr>
+      <td align="center" >Native phonemes</td>
+      <td align="center" >Canonical pattern</td>
+      <td align="center" >Non-native pattern1</td>
+      <!-- <td align="center" >Non-native pattern2</td> -->
+<!--       <td align="center" >Non-native pattern3</td> -->
+    </tr>
+    <tr>
+      <td align="center" ><b>ay</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ay/pattern1/0_FC005_mp26.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ay/pattern2/FCFYY_nw2_340_ay_ey.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>dh</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="dh/pattern1/0_MCLSY_nw3_329.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="dh/pattern2/FCCLW_nw2_495_d_dh.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>ee</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="ee/pattern1/0_FCSHE_nw1_196.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="ee/pattern2/FCFYY_nw2_743_ax_ee.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>hh</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="hh/pattern1/0_FC001_mp11.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="hh/pattern2/MCLYK_nw2_198_hh_f.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>iy</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="iy/pattern1/1_FC007_mp21.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="iy/pattern2/FCCMF_nw1_351_ih_iy.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>l</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="l/pattern1/0_MCLYK_nw1_517.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="l/pattern2/FCLYY_nw3_750_l_r.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>t</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="t/pattern1/1_FC004_ps6_490.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="t/pattern2/0_FC001_mp25_527.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>th</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="th/pattern1/0_MCCCC_nw3_76.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="th/pattern2/FCLPY_nw1_38_f_th.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" ><b>uh</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="uh/pattern1/0_MCCCC_nw2_512.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="uh/pattern2/MCLYK_nw3_546_uh_uw.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+
+<!--     <tr>
+      <td align="center" ><b>r</b></td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern1/0_FC001_cw9_426.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern2/FCCMF_nw1_169_ae_eh.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td align="center" >
+        <audio controls>
+        <source src="aa/pattern3/FCLPY_nw4_51_ae_ax.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr> -->
+    <!-- FF 5 sample 4 pieces of audios  -->
+    </table>
+       
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
