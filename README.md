@@ -1,1 +1,1 @@
-# mdddemo.github.io
+# This is a pronunciation demonstration of non-categories (non-native phone-like units) in L2 English speech, where the speakers' L1 language is Cantonese. Here we use a symbol of "phn1_phn2" to represent a non-category that sounds like a resemblance of both "phn1" and "phn2". And also, we provide some related native pronunciations for comparison. 
